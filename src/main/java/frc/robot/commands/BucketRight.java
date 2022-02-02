@@ -14,7 +14,7 @@ public class BucketRight extends CommandBase {
 
     @Override
     public void execute() {
-        mBucket.setBucketPos(1024);
+        mBucket.setBucketPos(1024 + 4096*2);
         System.out.println(mBucket.bucket0.getSelectedSensorPosition());
     }
 
